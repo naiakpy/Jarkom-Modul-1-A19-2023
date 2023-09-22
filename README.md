@@ -57,7 +57,7 @@ Di foto terlihat bahwa ada sebanyak `21 paket` yang menggunakan protokol layer t
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 Pada paket 130 kita bisa melihat User Datagram Protocol dan nilai Checksum tertera yaitu 0x18e5. Hal tersebut dapata dibuktikan sebagai berikut :
 
-![no4](img/img.PNG)
+![no4](img/no4.png)
 
 dari foto terlihat bahwa nilai cheksum nya adalah 0x18e5
 
@@ -137,7 +137,7 @@ ip.dst != 10.39.55.34 mengindikasikan memfilter paket yang memiliki alamat IP tu
 
 ## No 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet !
-
+![no10](img/no10.png)
 pada paket dengan telnet, ketika kita follow didapatkan hasil sebagai berikut, username adalah dhafin dan password nya adalah kesayangannyak0k0
 
 
