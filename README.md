@@ -81,5 +81,14 @@ Karena kita perlu mencari port tujuan dari koneksi TCP atau UDP
 ![no8](img/no8.png)
 
 ## No 9
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+```
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
+Untuk menemukan paket yang diinginkan, kita perlu membuat kueri yang dapat mengurutkan data berdasarkan alamat IP sumber dan alamat IP tujuan.
+
+ip.src == 10.51.40.1 berarti memfilter paket yang berasal dari alamat ip 10.51.40.1. 
+
+ip.dst != 10.39.55.34 mengindikasikan memfilter paket yang memiliki alamat IP tujuan yang bukan 10.39.55.34.
 
 ## No 10
