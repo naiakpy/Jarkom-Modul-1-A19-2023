@@ -57,6 +57,9 @@ Di foto terlihat bahwa ada sebanyak `21 paket` yang menggunakan protokol layer t
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 Pada paket 130 kita bisa melihat User Datagram Protocol dan nilai Checksum tertera yaitu 0x18e5. Hal tersebut dapata dibuktikan sebagai berikut :
 
+![no4](img/img.PNG)
+
+dari foto terlihat bahwa nilai cheksum nya adalah 0x18e5
 
 
 ## No 5
