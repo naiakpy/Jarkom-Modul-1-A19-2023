@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-A19-2023
 
-# Kelompok F08 :
+# Kelompok A19:
 | Nama | NRP |
 | ---------------------- | ---------- |
 | Nayya Kamila Putri Y | 5025211183 |
@@ -41,6 +41,7 @@ Kita dapat memeriksa alamat IP, kemudian kita periksa pada informasi yang memili
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 
 a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? 
+
 b. Protokol layer transport apa yang digunakan?
 
 Menggunakan query
@@ -81,4 +82,4 @@ Karena kita perlu mencari port tujuan dari koneksi TCP atau UDP
 
 ## No 9
 
-# No 10
+## No 10
