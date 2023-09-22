@@ -58,6 +58,15 @@ Di foto terlihat bahwa ada sebanyak 21 paket yang menggunakan protokol layer tra
 ## No 5
 
 ## No 6
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+Pertama kita perlu mencari file nomor 7812, lalu salin source addressnya dan di-decrypt. Didapatkan source addressnya adalah 104.18.14.101
+
+![no6](img/no6.png)
+
+Hasilnya setelah di-decrypt adalah JDRNJA
+
+![no6](img/decrypt.png)
 
 ## No 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
