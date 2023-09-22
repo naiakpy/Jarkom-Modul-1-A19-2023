@@ -29,9 +29,9 @@ Setelah itu, kita perlu mencari respons dari aktivitas tersebut, yaitu angka set
 
 ## No 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
-'''
+```
 http.server
-'''
+```
 
 Kita dapat memeriksa alamat IP, kemudian kita periksa pada informasi yang memiliki (teks/html). Pada paket tersebut, kita periksa Protokol Transfer Hiperteks dan kita mendapatkan nama servernya, yaitu gunicorn.
 
@@ -44,10 +44,41 @@ a. Berapa banyak paket yang tercapture dengan IP source maupun destination addre
 b. Protokol layer transport apa yang digunakan?
 
 Menggunakan query
-'''
+```
 ip.host == 239.255.255.250 and udp.port == 3702
-'''
+```
 
 ![no3](img/no3.png)
 
 Di foto terlihat bahwa ada sebanyak 21 paket yang menggunakan protokol layer transport UDP
+
+## No 4
+
+## No 5
+
+## No 6
+
+## No 7
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+Menggunakan query
+```
+ip.dst == 184.87.193.88
+```
+Dapat ditemukan ada 6 packet
+![no7](img/no7.png)
+
+## No 8
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+
+Menggunakan query
+```
+tcp.dstport == 80 || udp.dstport == 80
+```
+Karena kita perlu mencari port tujuan dari koneksi TCP atau UDP
+
+![no8](img/no8.png)
+
+## No 9
+
+# No 10
