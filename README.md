@@ -54,6 +54,10 @@ ip.host == 239.255.255.250 and udp.port == 3702
 Di foto terlihat bahwa ada sebanyak `21 paket` yang menggunakan protokol layer transport `UDP`
 
 ## No 4
+Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+Pada paket 130 kita bisa melihat User Datagram Protocol dan nilai Checksum tertera yaitu 0x18e5. Hal tersebut dapata dibuktikan sebagai berikut :
+
+
 
 ## No 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
