@@ -136,3 +136,8 @@ ip.src == 10.51.40.1 berarti memfilter paket yang berasal dari alamat ip 10.51.4
 ip.dst != 10.39.55.34 mengindikasikan memfilter paket yang memiliki alamat IP tujuan yang bukan 10.39.55.34.
 
 ## No 10
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet !
+
+pada paket dengan telnet, ketika kita follow didapatkan hasil sebagai berikut, username adalah dhafin dan password nya adalah kesayangannyak0k0
+
+
